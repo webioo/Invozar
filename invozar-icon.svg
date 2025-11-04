@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded square background -->
+  <rect width="512" height="512" fill="#667eea" rx="100"/>
+  
+  <!-- Invoice Document Icon (centered and larger) -->
+  <g transform="translate(116, 80)">
+    <!-- Document background -->
+    <rect x="0" y="0" width="280" height="350" fill="white" rx="20"/>
+    
+    <!-- Folded corner effect -->
+    <path d="M 280 0 L 280 70 L 210 70 Z" fill="#e5e7eb"/>
+    
+    <!-- Invoice header -->
+    <rect x="30" y="40" width="150" height="15" fill="#667eea" rx="7" opacity="0.8"/>
+    
+    <!-- Address lines -->
+    <rect x="30" y="75" width="220" height="10" fill="#d1d5db" rx="5"/>
+    <rect x="30" y="95" width="200" height="10" fill="#d1d5db" rx="5"/>
+    <rect x="30" y="115" width="180" height="10" fill="#d1d5db" rx="5"/>
+    
+    <!-- Divider -->
+    <line x1="30" y1="150" x2="250" y2="150" stroke="#d1d5db" stroke-width="3"/>
+    
+    <!-- Invoice items table -->
+    <rect x="30" y="170" width="100" height="10" fill="#d1d5db" rx="5"/>
+    <rect x="140" y="170" width="50" height="10" fill="#d1d5db" rx="5"/>
+    <rect x="200" y="170" width="50" height="10" fill="#d1d5db" rx="5"/>
+    
+    <rect x="30" y="195" width="100" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="140" y="195" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="200" y="195" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    
+    <rect x="30" y="215" width="100" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="140" y="215" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="200" y="215" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    
+    <rect x="30" y="235" width="100" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="140" y="235" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    <rect x="200" y="235" width="50" height="10" fill="#e5e7eb" rx="5"/>
+    
+    <!-- Total line -->
+    <line x1="30" y1="270" x2="250" y2="270" stroke="#667eea" stroke-width="4"/>
+    
+    <!-- Total amount (highlighted) -->
+    <rect x="30" y="285" width="60" height="12" fill="#d1d5db" rx="6"/>
+    <rect x="140" y="285" width="110" height="15" fill="#667eea" rx="7"/>
+    
+    <!-- Approval checkmark -->
+    <circle cx="230" cy="320" r="28" fill="#10b981"/>
+    <path d="M 218 320 L 226 328 L 242 308" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
